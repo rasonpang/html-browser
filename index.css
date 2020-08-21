@@ -1,0 +1,28 @@
+html,body {
+    margin: 0;
+}
+
+.browser {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+iframe {
+    border: none;
+    height: 95%;
+    width: 100%;
+    background-color: white;
+}
+
+#url {
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#url > #urlInput {
+    width: 80%;
+}
